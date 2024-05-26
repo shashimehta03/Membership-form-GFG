@@ -19,7 +19,7 @@ This project is an email registration and notification system built with Node.js
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/shashimehta03/Membership-form-GFG.git
    cd your-repo-name
 
 ## Run
