@@ -23,5 +23,5 @@ This project is an email registration and notification system built with Node.js
    cd your-repo-name
 
 ## Run
-
-- node index.js
+ ```bash
+ node index.js
