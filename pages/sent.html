@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sucesfully sent mail</h1>
+    <p>This page has been accessed <span id="counter">0</span> times.</p>
+
+    <script>
+        // Get the counter element
+        var counterElement = document.getElementById('counter');
+
+        // Get the current count from localStorage or default to 0
+        var count = localStorage.getItem('accessCount') || 0;
+
+        // Increment the count and update the counter element
+        count++;
+        counterElement.textContent = count;
+
+        // Update localStorage with the new count
+        localStorage.setItem('accessCount', count);
+    </script>
+</body>
+</html>
