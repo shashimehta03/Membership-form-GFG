@@ -18,8 +18,8 @@ app.use(express.static(path.join(__dirname, "pages")));
 const mongoURI = 'mongodb://localhost:27017';
 const dbName = 'emailDatabase';
 const collectionName = 'emails';
-const emailUser = 'itsmeshashi29@gmail.com';  //  // replace with your actual mail
-const emailPass = 'njfb wjas mckj ldym';  // replace with your actual app password
+const emailUser = '@gmail.com';  //  // replace with your actual mail
+const emailPass = '';  // replace with your actual app password
 
 let membershipId = 1000; // Initialize membership ID
 
